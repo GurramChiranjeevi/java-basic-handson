@@ -1,8 +1,8 @@
 class Main {
   public static void main() {
     System.out.printf("%b %b %n",StringUtils.containsChar("hello", 'h'), true); // true
-    // System.out.println(StringUtils.reverse("Hello")); // "olleH"
-    // System.out.println(StringUtils.replaceAll("Hello"), 'l', 'L'); // "HeLLo"
+    System.out.printf("%s %s %n",StringUtils.reverse("Hello"), "olleH"); // "olleH"
+    System.out.printf("%s %s %n",StringUtils.replaceAll("Hello", 'l', 'L'), "HeLLo"); // "HeLLo"
 
     Money twelveRupee = new Money(12);
     Money tenRupee = new Money(10);
