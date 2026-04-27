@@ -1,7 +1,9 @@
 class StringUtils {
   static boolean containsChar(String word, char target) {
-    System.out.println(word[0]);
-    return true;
+    for(int index = 0; index < word.length() ; index++) {
+      if(word.charAt(0) == target) return true;
+    }
+    return false;
   }
 
 }

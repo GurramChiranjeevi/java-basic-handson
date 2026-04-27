@@ -1,6 +1,6 @@
 class Main {
   public static void main() {
-    // System.out.println(StringUtils.containsChar("hello", 'l')); // true
+    System.out.printf("%b %b %n",StringUtils.containsChar("hello", 'h'), true); // true
     // System.out.println(StringUtils.reverse("Hello")); // "olleH"
     // System.out.println(StringUtils.replaceAll("Hello"), 'l', 'L'); // "HeLLo"
 
